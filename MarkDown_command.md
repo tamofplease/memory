@@ -75,12 +75,19 @@ hello
 
 ***
 
-#Image
+# Image
 
 ### Insert exclamation mark
 
 `![Alt text](http://i7.nu/rdnq5)` => ![Alt text](http://i7.nu/rdnq5)
 
+ ***
  
+# Horizontal line
+
+### Three or more * , - , _
+
+\*\*\* =>  
+***
 
 
