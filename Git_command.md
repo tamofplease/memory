@@ -35,7 +35,8 @@ Show unified diff between Head committed and what you would be commited.
 3. `-c [comment]`  
 Commit with comment
 
-4. `-m [comment]`
-Commi
+4. `--amend`
+Modify the code which commuted before
+
 
 
