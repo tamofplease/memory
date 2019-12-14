@@ -24,3 +24,18 @@ add the file from lower directory than current directory which is updated
 
 ## 4. commit the file which in the index
 `git commit `
+
+### option   
+
+1. `-a`  
+Add every file which in the index. 
+2. `-v`  
+Show unified diff between Head committed and what you would be commited. 
+
+3. `-c [comment]`  
+Commit with comment
+
+4. `-m [comment]`
+Commi
+
+
