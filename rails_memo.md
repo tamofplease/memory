@@ -32,13 +32,14 @@ Check if there is a specific string in the tag
   
 # In view  
 
-`<% provide(:[variable_name],"[Word]") %>`  
+* `<% provide(:[variable_name],"[Word]") %>`  
 it mean  
 `$[variable_name] = Word`  
   
-To use the variable, Just
-  `<%= yield(:title) %>`  
-wherever you want to use.
+* `<%= yield(:title) %>`  
+use the variable,wherever you want to use.  
 
 
+* `<%= render 'layouts/(file_name)' %>`   
+make partial. render html has to be written in app/views/layouts/_(file_name)  
 
