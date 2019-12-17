@@ -43,3 +43,10 @@ use the variable,wherever you want to use.
 * `<%= render 'layouts/(file_name)' %>`   
 make partial. render html has to be written in app/views/layouts/_(file_name)  
 
+# with instance
+
+* `[instance_A] = [instance_B].dup`
+copy [instance_B]to [instance_A]
+
+
+
