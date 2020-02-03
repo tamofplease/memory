@@ -45,7 +45,22 @@
     `end  `  
 ----
 
-* ###
+* ### Expectation  
+    Expectation has two rules.
+    * `Object#should(matcher = nil)`
+    * `Object#should_not(matcher = nil)`  
+  
+ 
+    matcher has many type  
+    *  `(1+1).should == 2`    
+    *  `10.should < 11`  
+    *  `"apple".should_not =~ /orange/ `
+    *  `@empty_array.should be_empty`
 
-     
-    this method are used as hook to descript the preprocessing and Post-processing.
+-----
+
+* ### Violated
+    Violated method is used in the case which always fail.
+
+    * `violated "always fail!"`
+-----
