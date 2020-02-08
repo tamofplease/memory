@@ -6,7 +6,9 @@
 
 *  Command + option + f => find word in whole directory
 
-* B => show(hide) bar
+* Command + B => show(hide) bar
+
+* Command + X => delete whole line
 
 * 
 
@@ -16,14 +18,12 @@
 
 * ctr + e => go cursol to end
 
-* ctr + z => delete file whole line
-
-* 
+* Ctr + r => show suggest command
 
 ## Vim
 
-* 
+* d + d => delete whole line
  
-*
+* y + y => copy whole line
 
-*
+* p => paste
